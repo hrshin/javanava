@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE context>
+<Context>
+<WatchedResource>WEB-INF/web.xml</WatchedResource>
+<Resource name="jdbc/MSSQL" 
+    auth="Container"
+    type="javax.sql.DataSource" 
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    url="jdbc:sqlserver://192.168.100.201:1433;database=web_rep;"
+    username="web_rep_adm" password="siec2000" 
+   maxTotal="20" maxIdle="10" maxWaitMillis="-1"/>
+</Context>
+
+
+
+<!-- DriverClassName :  com.microsoft.jdbc.sqlserver.SQLServerDriver -->
+<!-- url :          jdbc:Microsoft:sqlserver://192.168.100.201:1433;databasename=web_rep  -->
+<!-- URL : integratedSecurity=true; 추가하면 Window 인증 -->
