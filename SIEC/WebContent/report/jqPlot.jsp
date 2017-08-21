@@ -60,7 +60,6 @@ $(function(){
       var ticks = ['1월', '2월', '3월', '4월', '5월', '6월'];
      jQuery("#graph").jqplot([goal,performance, rate], {
 		 animate : true, // 애니메이션 효과
-    	 
     	 axes:
     	 {
     		xaxis:

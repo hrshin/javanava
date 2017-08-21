@@ -9,7 +9,6 @@
 <!DOCTYPE html>
 <% // arrayList 값을 JSON 형태로 변환
 
-
 	ChartDAO dao = new ChartDAO();
 	ChartVO vo = null;
 	Gson gson = new Gson();
