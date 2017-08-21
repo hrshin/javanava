@@ -17,6 +17,7 @@
 				<table id="list4"></table>
 		</section>
 
+
 <script src = "../JS/jquery-1.11.0.min.js"></script>
 <script src = "../JS/i18n/grid.locale-kr.js"></script>
 <script src = "../JS/jquery.jqGrid.min.js"></script>

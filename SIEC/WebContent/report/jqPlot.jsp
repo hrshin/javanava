@@ -45,7 +45,7 @@
 	</div>
 	
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src = "../JS/jquery-1.11.0.min.js"></script>
 <script src="../jqPlot/jquery.jqplot.min.js"></script>
 <script src="../jqPlot/plugins/jqplot.categoryAxisRenderer.js"></script>
 <script src="../jqPlot/plugins/jqplot.barRenderer.js"></script>
@@ -59,7 +59,6 @@ $(function(){
       var rate = [<%=rate%>]
       var ticks = ['1월', '2월', '3월', '4월', '5월', '6월'];
      jQuery("#graph").jqplot([goal,performance, rate], {
-		 animate : true, // 애니메이션 효과
     	 axes:
     	 {
     		xaxis:
